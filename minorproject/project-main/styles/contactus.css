@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  form{
+    
+    width: 500px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    background-origin: flex;
+    margin-top: 50px;
+    margin-left: 500px;
+    border-radius: 10px;
+    transform: translate(0%,-5%);
+    padding: 25px;
+}
+
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1  solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+ 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    width: 500px;
+  }
+  
+
+  .column {
+    float: left;
+    width: 90%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
